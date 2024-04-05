@@ -19,7 +19,7 @@ input::-webkit-inner-spin-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url("./images/bg1.jpeg");
+    background-image: url("images/bg1.jpeg");
 }
 
 #calculator #container{
