@@ -13,18 +13,18 @@ calculateBtn.addEventListener("click", () => {
     result.innerHTML = Math.floor(calc)
 
     if(calc < 18){
-        bmiImage.src = "/images/skinny.png"
+        bmiImage.src = "./images/skinny.png"
     }
     else if(calc > 18 && calc < 24){
-        bmiImage.src = "/images/normal.png"
+        bmiImage.src = "./images/normal.png"
     }
     else if(calc > 25 && calc < 29){
-        bmiImage.src = "/images/overweight.png"
+        bmiImage.src = "./images/overweight.png"
     }
     else if(calc > 30 && calc < 34){
-        bmiImage.src = "/images/obese.png"
+        bmiImage.src = "./images/obese.png"
     }
     else if(calc > 35){
-        bmiImage.src = "/images/extremelyobese.png"
+        bmiImage.src = "./images/extremelyobese.png"
     }
 })
